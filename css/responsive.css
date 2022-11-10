@@ -88,11 +88,114 @@
     }
     .section6-parent2{
         margin: 25px auto;
+    }
+    .section7{
+        width: 90%;
+        margin: 40px auto;
     } 
+    .section9-parent1-child1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section14-parent1, .section14-parent2, .section14-parent3, .meet, .section16-container, .section11-parent1 {
+        width: 100%;
+    }
+    .section13-parent2{
+        width: 95%;
+    }
     
 
 }
-
+@media (max-width: 320px){
+    .banner{
+        padding: 0;
+    }
+    .banner p{
+        padding-top: 100px;
+    }
+    .banner h1{
+        padding-top: 15px;
+        letter-spacing: 10px;
+    }
+    .banner a{
+        margin-bottom: 20px;
+    }
+    .section4-parent1{
+        width: 70%;
+    }
+    .section6-parent2{
+        margin: 25px 50px;
+    }
+    .section10{
+        height: 600px;
+    }
+    .section10-parent2-child1{
+        width: 50%;
+    }
+    .section11-parent2-child1{
+        width: 100%;
+    }
+    .section15-parent1{
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .section15-parent2{
+        width: 100%;
+        padding-top: 0;
+    }
+    .section17-parent1{
+        width: 100%;
+    }
+    .section18-container, .section18-parent1{
+        width: 100%;
+        text-align: center;
+    }
+    .section18-parent2{
+        width: 80%;
+    }
+    .title{
+        margin-left: 20px;
+    }
+}
+@media (max-width:400px){
+    .banner h1{
+        position: relative;
+        top: 100px;
+        left: -100px;
+    }
+    .banner a{
+        position: relative;
+        top: 90px;
+        left: -28px
+    }
+    .section6-parent2{
+        width: 50%;
+    }
+    .section10{
+        height: 600px;
+    }
+    .section10-parent2-child1{
+        width: 50%;
+    }
+    .section11-parent2-child1{
+        width: 100%;
+    }
+    .section13-parent1{
+        width: 80%;
+    }
+    .section15-parent1{
+        width: 100%;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .section15-parent2{
+        width: 100%;
+        padding-top: 0;
+    }
+    .section17-parent1{
+        width: 100%;
+    }
+}
 
 
 /* 
